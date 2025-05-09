@@ -103,3 +103,51 @@ descricao-titulo {
     color: var(--branco_principal);
     margin-bottom: 0.1em;
 }
+
+@media screen and (amx width: 48rem) {
+    .container{
+        display: block;
+    }
+    
+}
+
+.principal{
+    background-image: url(./imagens/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+
+}
+
+.container-caixa{
+    margin: 2em 2em;
+
+}
+
+.secundario{
+    margin: 0 2em;
+
+}
+
+.dispositivos-lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style:none;
+    margin-top: 1em;
+
+}
+
+.rodape-lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1em;
+
+}
+
+.lista-link{
+    margin-top: 0.8em;
+
+}
